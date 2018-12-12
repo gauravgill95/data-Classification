@@ -1,0 +1,38 @@
+														<--- Introduction to App --->
+This webapp is a basic categorization app.We can categorize the input data into different categories and can also search the category of a input data.
+Features includes:-
+	1) Simple and easy to use frontend.
+	2) Api to store multiple data entries to database.
+	3) Api to call data stored in database,
+	4) Frontend and Api to categorize data.
+
+														   <--- How to Setup --->							
+The application includes of two parts serverside script and frontend,so to setup the application first we need to install Node.js along with some modules     "async": "^2.6.1" ,"body-parser": "^1.18.3", "ejs": "^2.6.1","eslint": "^5.9.0","express": "^4.16.4","mysql": "^2.16.0". We also need to have a server (apache or any other server ) installed along with mysql.
+Before we run our script open text editor and change the username ,host and password variable in both pre-app.js and app.js to your server's configuration. 
+Now after installing the application we need to run the following commands on the console.
+	1)  node pre-app.js
+This command will create a mysql database on the server.Now we can run our script.Now run the following command.
+	2)  node app.js
+That's it we have succesfully installed our script on the server at portno- 3000. We are good to go.
+
+														   <--- How to run ---->
+Open your browser and type following in the url box.
+	1) localhost:3000 
+This will open your server at port 3000. Now you should see a layout(frontend) with multiple input and classify options.
+Now we can classify our data. 
+But wait......
+Which Classes ???
+First we need to add categories and their attributes then accordingly we can classify.
+Enjoy...
+
+
+														    <--- Developer --->
+														    	Gaurav Gill
+														    3rd Year, IIT Ropar
+														        8930576000
+														   2016eeb1077@iitrpr.ac.in
+
+
+
+														   
+	Please contact me for any queries and suggestions about the app.
